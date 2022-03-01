@@ -13,3 +13,99 @@
  *= require_tree .
  *= require_self
  */
+/* shades of a color are darker the higher the ending number is so pink-1 would be 4 times lighter than pink-4*/
+
+ 
+
+
+
+/* :root {
+  --primary-color: #FFE5D9;
+  --secondary-color: #FFD7BA;
+  --font-color: #FEC89A;
+  --tertiary-color: #ECE4DB;
+  --link-color: #D8E2DC;
+}
+
+AND 
+
+[data-theme="afternoon"] {
+  --primary-color: #F4A261;
+  --secondary-color: #E76F51;
+  --font-color: #E9C46A;
+  --tertiary-color: #2A9D8F;
+  --link-color: #264653;
+} */
+
+.morning-theme {
+  --primary-color: #FFE5D9;
+  --secondary-color: #FFD7BA;
+  --font-color: #FEC89A;
+  --secondary-color: #ECE4DB;
+  --link-color: #D8E2DC;
+
+}
+
+.afternoon-theme {
+  --primary-color: #F4A261;
+  --secondary-color: #E76F51;
+  --font-color: #E9C46A;
+  --tertiary-color: #2A9D8F;
+  --link-color: #264653;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  color: var(--font-color);
+  background: var(--primary-color);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  width:100%;
+  padding: 60px 60px 30px 60px; /* top, right, bottom, left */
+  background: var(--secondary-color);
+}
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding: 30px 60px 60px 60px; /* top, right, bottom, left */
+  background: var(--tertiary-color);
+}
+
+
+.top-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-grid {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+a { 
+  color: var(--link-color);
+}
+
+.nav-link {
+  text-decoration: none;
+
+}
+
+
+

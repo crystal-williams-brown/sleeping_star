@@ -10,7 +10,25 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="<%=@time_of_day%>-theme">
+      <header>
+        <nav>
+            <ul class="top-nav nav-grid">
+                <li class="home-nav-item"><a class="nav-link" href="default.asp">Good <%=@time_of_day%></a></li>
+                <li class="home-nav-item"><a class="nav-link" href="/stories/search">Find A Story</a></li>
+                <li class="home-nav-item"><a class="nav-link" href="contact.asp">Contact</a></li>
+                <li class="home-nav-item"><a class="nav-link" href="about.asp">About</a></li>
+            </ul> 
+        </nav>
+      </header>
+      <%= yield %>
+      <footer>
+            <ul class="top-nav nav-grid">
+              <li class="home-nav-item"><a class="nav-link" href="default.asp">Good <%=@time_of_day%></a></li>
+              <li class="home-nav-item"><a class="nav-link" href="contact.asp">Contact</a></li>
+              <li class="home-nav-item"><a class="nav-link" href="about.asp">About</a></li>
+              <li>Have a wonderful everything!</li>
+          </ul> 
+      </footer>
   </body>
 </html>

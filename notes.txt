@@ -1,0 +1,14 @@
+:root {
+  --morning-pink-1: #F8EDEB;
+  --morning-pink-2: #FAE1DD;
+  --morning-pink-3: #FCD5CE;
+  --morning-pink-4: #FEC5BB;
+  --morning-orange-1: #FFE5D9; /* this shade is a mix of light pink and orange*/
+  --morning-orange-2: #FFD7BA;
+  --morning-orange-3: #FEC89A;
+  --morning-green-1: #E8E8E4;
+  --morning-green-2: #ECE4DB; /* this shade is a mix of light green and orange*/
+  --morning-green-3: #D8E2DC;
+
+}
+
