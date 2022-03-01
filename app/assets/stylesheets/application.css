@@ -38,11 +38,11 @@ AND
 } */
 
 .morning-theme {
-  --primary-color: #FFE5D9;
-  --secondary-color: #FFD7BA;
-  --font-color: #FEC89A;
-  --secondary-color: #ECE4DB;
-  --link-color: #D8E2DC;
+  --primary-color: #FFCAD4;
+  --secondary-color: #F4ACB7;
+  --font-color: #9D8189;
+  --tertiary-color: #9da9e0;
+  --link-color: #FFE5D9;
 
 }
 
